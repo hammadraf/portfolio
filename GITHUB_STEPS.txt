@@ -1,0 +1,22 @@
+1. github.com -> New repository -> name: portfolio -> Public -> Create (empty).
+2. Install Git, open terminal inside the portfolio folder and run (change USERNAME):
+
+git init
+git branch -M main
+git remote add origin https://github.com/USERNAME/portfolio.git
+
+git add README.md && git commit -m "Add README with project description"
+git add images/favicon.svg && git commit -m "Add favicon for the website"
+git add css/style.css && git commit -m "Add external stylesheet with colours and layout"
+git add index.html && git commit -m "Create home page with semantic header, nav and footer"
+git add hobbies.html && git commit -m "Create hobbies page with lists and tables"
+git add images/post1.png images/post2.png images/post3.png && git commit -m "Add social media screenshots"
+git add images/profile.png && git commit -m "Add local profile image"
+git add media.html && git commit -m "Create favourite media page with grid and YouTube videos"
+git add contact.html && git commit -m "Create contact page with map and form"
+git add . && git commit -m "Add report file and GitHub steps"
+git push -u origin main
+
+3. Repo -> Settings -> Pages -> Source: Deploy from a branch -> main / (root) -> Save.
+4. After 1-2 min live link: https://USERNAME.github.io/portfolio/
+5. Test every page, then validate at validator.w3.org and jigsaw.w3.org/css-validator.
